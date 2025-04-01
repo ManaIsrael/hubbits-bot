@@ -4,7 +4,7 @@ import { start, menu } from './handlers/commands.js';
 import { exampleCallback } from './handlers/callbacks.js';
 
 // Initialize bot
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
+const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
 
 // Commands
 bot.onText(/\/start/, (msg) => start(bot, msg));
