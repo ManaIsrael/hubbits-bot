@@ -19,9 +19,9 @@ export const exampleCallback = (bot, query) => {
       "- Training Room (15-20 person):*300 Br. per person*\n" +
       "- Hot Desk Annual: 5500 Br.*\n" +
       "- Bi-Weekly (14 Days): 4500 Br.*\n" +
-      "- Private Office P-2 (24.94 m2): 54868 Br. / Furnished, 37410 Br. / Unfurnished*\n" +
-      "- Private Office P-4 (24.83 m2): 54626 Br. / Furnished, 37245 Br. / Unfurnished*\n" +
-      "- Private Office P-7 (23.43 m2): 51546 Br. / Furnished, 37488 Br. / Unfurnished*\n" +
+      "- Private Office P-2 (24.94 m2): 54868 Br. for Furnished, 37410 Br. for Unfurnished*\n" +
+      "- Private Office P-4 (24.83 m2): 54626 Br. for Furnished, 37245 Br. for Unfurnished*\n" +
+      "- Private Office P-7 (23.43 m2): 51546 Br. for Furnished, 37488 Br. for Unfurnished*\n" +
       "- Meeting Room: *500 Br. per person*";
   } 
   else if (data === "facilities") {
@@ -39,9 +39,9 @@ export const exampleCallback = (bot, query) => {
   } 
   else if (data === "membership") {
     responseText = "🎟 *Membership Plans:*\n" +
-      "*Gold:* 6500 Br./Month (6 months) ✅\n" +
-      "*Silver:* 7000 Br./Month (3 months) 🔥\n" +
-      "*Premium:* 6000 Br./Month (12 months) 🎉\n" +
+      "*Gold:* 6500 Br. per Month (6 months) ✅\n" +
+      "*Silver:* 7000 Br. per Month (3 months) 🔥\n" +
+      "*Premium:* 6000 Br. per Month (12 months) 🎉\n" +
       "- Free monthly Hot Desk\n" +
       "- 1 hour meeting room per day\n" +
       "- Free Water, Coffee, WiFi ☕";

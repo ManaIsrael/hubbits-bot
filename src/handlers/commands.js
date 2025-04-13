@@ -5,7 +5,6 @@ export const start = (bot, msg) => {
     reply_markup: {
       inline_keyboard: [
         [{ text: "Visit Website", url: "https://hub-bits.com" }],
-        [{ text: "Get Help", callback_data: "help" }],
         [{ text: "📍 Location", callback_data: "location" }],
         [{ text: "💰 Pricing", callback_data: "pricing" }],
         [{ text: "🏢 Facilities", callback_data: "facilities" }],
